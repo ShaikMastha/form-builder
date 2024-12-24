@@ -1,0 +1,161 @@
+
+
+/* Container styles */
+form {
+  max-width: 700px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  overflow-wrap: break-word; /* Ensure long words wrap inside the container */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; 
+}
+
+form:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-5px); /* Slightly lift the form */
+}
+
+/* Question and Option Styles */
+.question-group {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+  word-wrap: break-word; /* Allow long questions to break onto the next line */
+  word-break: break-word; /* Break long words if necessary */
+}
+
+.option-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.options-group {
+  margin-left: 15px;
+}
+
+/* Mat-form-field styles */
+.mat-form-field {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.question-field {
+  margin-bottom: 20px;
+}
+
+.type-field,
+.option-field {
+  width: calc(100% - 40px);
+}
+
+/* Button Styles */
+button {
+  margin: 5px 0;
+}
+
+button[mat-raised-button] {
+  text-transform: none;
+  font-weight: 500;
+}
+
+/* Add/Remove Button Colors */
+.add-question-btn {
+  background-color: #3f51b5; 
+  color: #ffffff;
+}
+
+.add-option-btn {
+  background-color: #1976d2; 
+  color: #ffffff;
+}
+
+.action-buttons button {
+  margin-right: 10px;
+}
+
+
+.submit-btn {
+  background-color: #e91e63; 
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Disabled Button Styles */
+button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+}
+
+/* Preview Section Styles */
+.preview {
+  max-width: 700px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f0f4ff;
+  border: 1px solid #007bff;
+  overflow-wrap: break-word; /* Allow content to wrap */
+}
+
+.preview h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.preview-item {
+  margin-bottom: 20px;
+  word-wrap: break-word; /* Ensure long text inside the preview wraps */
+  word-break: break-word; /* Break long words in the preview */
+}
+
+.preview-item h3 {
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.preview-item .mat-form-field {
+  width: 100%;
+}
+
+.preview-item p {
+  white-space: normal; /* Allow text in preview to wrap normally */
+}
+
+/* Edit and Delete Button Styles */
+button.edit-btn {
+  background-color: #1976d2; 
+  color: #ffffff;
+}
+
+button.delete-btn {
+  background-color: #d32f2f; 
+  color: #ffffff;
+}
+
+button.save-btn {
+  background-color: #007bff; 
+  color: #ffffff;
+}
+
+/* Button Group Styling for Edit/Save/Delete */
+.button-group {
+  display: flex;
+  gap: 10px; 
+  margin-top: 10px; /* Optional: adds space above the button group */
+}
+
+.button-group button {
+  margin-right: 10px; /* Adds right margin between buttons */
+}

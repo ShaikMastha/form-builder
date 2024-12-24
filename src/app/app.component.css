@@ -1,0 +1,14 @@
+.app-title {
+    text-align: center;
+    font-size: 36px; /* Increased font size */
+    color: #007bff;
+    margin-top: 20px; /* Increased top margin for more space above */
+    margin-bottom: 20px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .app-title:hover {
+    text-decoration: underline; /* Adds an underline on hover */
+    color: #0056b3; /* Darker shade of blue for hover effect */
+    transform: translateY(5px); /* Moves the text down slightly on hover */
+  }
