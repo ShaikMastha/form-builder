@@ -1,3 +1,5 @@
+![image alt](https://github.com/ShaikMastha/form-builder/blob/6ec0c3d10226c65e14bf34d5e5c7d77e214d6f3d/Form%20Builder.png)
+
 # FormBuilder
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
